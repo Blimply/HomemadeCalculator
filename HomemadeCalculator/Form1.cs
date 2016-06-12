@@ -156,6 +156,11 @@ namespace HomemadeCalculator
 
         }
 
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private double operatorCalculate(char operation, double i1, double i2)
         {
             switch (operation)
